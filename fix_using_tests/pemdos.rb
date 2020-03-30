@@ -4,7 +4,7 @@ require "pry"
 def snake_it_up(string)
   if string[0] == "s"
     binding.pry
-    "ssssssssss" << string[0]
+    string.insert(0, "sssssssss")
   else
     string
   end
